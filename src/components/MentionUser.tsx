@@ -41,7 +41,7 @@ const MentionUser: React.FC = () => {
         type="text"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Type your message here..."
+        placeholder="Mention"
       />
       {showMentionOptions && (
         <div className="mention-options">
