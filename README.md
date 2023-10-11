@@ -8,25 +8,24 @@ Link to design: [Design](https://www.figma.com/file/EEmRktq44VPR3u8Lx7otOJ/Front
 Description
 This is similar to the @-mentions in X/Twitter. The user can type any text in the input element but when user types `@` then a select box should appear from which they can select an option and it should be displayed in input element. For example `Hi @Luke Skywalker may the force be with you.`. An `onChange` handler should be triggered with the input and the options selected, in a format of your choice.
  
-Instructions:
 
-- Implement as much as possible in the given time.
-- Push your code to Github/Gitlab/<any other> and send us the link.
-- Please write us a note on what else you would do if you could spend more time.
- 
-What we look for:
+Scrrenshots of working: 
 
-- Thinking: Are you able to think through the flow and edge cases?
-- Tests: How well is the code tested through unit/integration tests?
-- Documentation: How can anyone new run this app locally and contribute to it?
-- Code organisation: How are you organizing your components?
+In this as soon as user press @ it displays the list of all users importing from  data.json, and on select of any name it concatenate the name to to that position. For better ux inside the component I have used sort method to display the names in alphabetical orders.
 
-What we don’t look for:
+By spending more time we can add functionality to filter the list of names, like if user starts typing after @ it will only show the names in the list that contains those character and we can also add some css to wrap this inside a container.
 
- - Custom select box: You need not implement a custom select box. You're welcome to use the native select box or your favorite library.
- - Styling: It can look & feel very bare-bones, that's perfectly fine. 
 
-From where you can get data for options while triggering mention actions
- - Use data present in data.json as raw data for mention component.
 
-Happy coding! 💻
+
+1.
+ ![Screenshot 2023-10-11 at 5 14 25 PM](https://github.com/vaibhav-gulati/squadcast-assignment/assets/54852286/7f732356-6ea1-47c4-a5c6-cce58546ae9e)
+
+
+
+
+2. 
+![Screenshot 2023-10-11 at 5 14 39 PM](https://github.com/vaibhav-gulati/squadcast-assignment/assets/54852286/0aeb7f2e-963c-4a47-83f9-372134da138e)
+
+
+
